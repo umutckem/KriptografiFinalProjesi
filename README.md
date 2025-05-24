@@ -9,6 +9,7 @@ Asimetrik anahtar yapısını kullanarak güvenli anahtar paylaşımı ve veri �
 SHA-256 (Secure Hash Algorithm 256-bit):
 Giriş verisinin tek yönlü olarak sabit uzunlukta bir hash çıktısına dönüştürülmesini sağlar. Dosya, metin veya bağlantıdan elde edilen içerikler için dijital parmak izi oluşturulabilir.
 
+online site : http://kriptofinalprojesi.somee.com/
 ![Ekran görüntüsü 2025-05-24 215601](https://github.com/user-attachments/assets/a839d233-8305-4b6b-a3db-4effc087aa9b)
 
 ![Ekran görüntüsü 2025-05-24 215613](https://github.com/user-attachments/assets/b12e57c2-ec09-4866-9b9f-465bf68c90b5)
