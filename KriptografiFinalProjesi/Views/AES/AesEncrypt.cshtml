@@ -1,0 +1,113 @@
+﻿@{
+    ViewData["Title"] = "AES Passphrase Aracı";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">AES Şifreleme / Çözme</h2>
+
+    <div class="card shadow-sm p-4">
+        <form asp-action="AesEncrypt" asp-controller="AES" method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label class="form-label fw-bold">İşlem:</label>
+                <select name="operation" class="form-select">
+                    <option value="encrypt">Şifrele</option>
+                    <option value="decrypt">Çöz</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold">Girdi Tipi:</label>
+                <select name="inputType" id="inputType" onchange="updateInputFields()" class="form-select">
+                    <option value="text">Metin</option>
+                    <option value="file">Dosya</option>
+                    <option value="url">URL</option>
+                </select>
+            </div>
+
+            <div id="textDiv" class="mb-3">
+                <label class="form-label fw-bold">Metin:</label>
+                <textarea name="textInput" class="form-control" rows="5" placeholder="Metni buraya girin..."></textarea>
+            </div>
+
+            <div id="fileDiv" class="mb-3" style="display:none;">
+                <label class="form-label fw-bold">Dosya:</label>
+                <input type="file" name="fileInput" class="form-control" />
+            </div>
+
+            <div id="urlDiv" class="mb-3" style="display:none;">
+                <label class="form-label fw-bold">URL:</label>
+                <input type="text" name="urlInput" class="form-control" placeholder="https://ornek.com" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold">Passphrase (şifre cümlesi):</label>
+                <input type="password" name="passphrase" class="form-control" required placeholder="Şifre cümlesini girin..." />
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary btn-lg">İşlemi Uygula</button>
+            </div>
+        </form>
+    </div>
+
+    @if (ViewBag.Result != null)
+    {
+        <div class="card shadow-sm mt-4 p-4">
+            <label class="form-label fw-bold">Sonuç:</label>
+            <textarea class="form-control" rows="6" readonly>@ViewBag.Result</textarea>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        function updateInputFields() {
+            const selected = document.getElementById("inputType").value;
+            document.getElementById("textDiv").style.display = selected === "text" ? "block" : "none";
+            document.getElementById("fileDiv").style.display = selected === "file" ? "block" : "none";
+            document.getElementById("urlDiv").style.display = selected === "url" ? "block" : "none";
+        }
+    </script>
+}
+
+@section Styles {
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .card {
+            border-radius: 10px;
+            border: none;
+        }
+
+        .form-label {
+            color: #495057;
+        }
+
+        .form-control, .form-select {
+            border-radius: 8px;
+            transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+
+            .form-control:focus, .form-select:focus {
+                border-color: #0d6efd;
+                box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+            }
+
+        .btn-primary {
+            border-radius: 8px;
+            padding: 10px;
+            font-weight: 500;
+        }
+
+            .btn-primary:hover {
+                background-color: #0b5ed7;
+                border-color: #0a58ca;
+            }
+
+        textarea[readonly] {
+            background-color: #e9ecef;
+        }
+    </style>
+}
