@@ -20,3 +20,5 @@ Giriş verisinin tek yönlü olarak sabit uzunlukta bir hash çıktısına dön�
 ![Ekran görüntüsü 2025-05-24 215631](https://github.com/user-attachments/assets/5bba94e7-576a-46d0-9d50-da63151342e6)
 
 ![Ekran görüntüsü 2025-05-24 215638](https://github.com/user-attachments/assets/3ae9e5b9-e710-46f0-b5a4-6431016ab8b8)
+
+Umutcan Kemahlı Tarafından Hazırlanmıştır
