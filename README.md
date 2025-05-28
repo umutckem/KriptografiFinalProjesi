@@ -18,6 +18,7 @@ Bu ekran, Online Tools uygulamasının ana sayfasıdır. Uygulamadaki tüm araç
 ## Rsa
 
 ![Ekran görüntüsü 2025-05-24 215613](https://github.com/user-attachments/assets/b12e57c2-ec09-4866-9b9f-465bf68c90b5)
+Bu ekran, RSA anahtarları üretmek için kullanılır. 1024, 2048 ve 4096 bit uzunluğunda anahtar seçenekleri sunar."
 
 ![Ekran görüntüsü 2025-05-24 215620](https://github.com/user-attachments/assets/0e0754f8-0f7c-4001-9aff-8c47216e34e2)
 
