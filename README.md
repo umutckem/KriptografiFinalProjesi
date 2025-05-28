@@ -22,7 +22,11 @@ online site : http://kriptofinalprojesi.somee.com/
 
 ![Ekran görüntüsü 2025-05-24 215625](https://github.com/user-attachments/assets/9e0883f5-a6c7-4b48-846d-fe8dd53470f4)
 
+## SHA256
+
 ![Ekran görüntüsü 2025-05-24 215631](https://github.com/user-attachments/assets/5bba94e7-576a-46d0-9d50-da63151342e6)
+
+## AES
 
 ![Ekran görüntüsü 2025-05-24 215638](https://github.com/user-attachments/assets/3ae9e5b9-e710-46f0-b5a4-6431016ab8b8)
 
