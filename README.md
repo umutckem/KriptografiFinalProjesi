@@ -21,15 +21,19 @@ Bu ekran, Online Tools uygulamasının ana sayfasıdır. Uygulamadaki tüm araç
 Bu ekran, RSA anahtarları üretmek için kullanılır. 1024, 2048 ve 4096 bit uzunluğunda anahtar seçenekleri sunar."
 
 ![Ekran görüntüsü 2025-05-24 215620](https://github.com/user-attachments/assets/0e0754f8-0f7c-4001-9aff-8c47216e34e2)
+Bu ekran, RSA algoritmasıyla şifreleme işlemlerini gerçekleştirmek için kullanılır.
 
 ![Ekran görüntüsü 2025-05-24 215625](https://github.com/user-attachments/assets/9e0883f5-a6c7-4b48-846d-fe8dd53470f4)
+Bu ekran, RSA algoritmasıyla şifrelenmiş verilerin çözülmesi (decryption) için kullanılır.
 
 ## SHA256
 
 ![Ekran görüntüsü 2025-05-24 215631](https://github.com/user-attachments/assets/5bba94e7-576a-46d0-9d50-da63151342e6)
+Bu ekran, SHA-256 algoritmasına göre özet (hash) oluşturmak için kullanılır.
 
 ## AES
 
 ![Ekran görüntüsü 2025-05-24 215638](https://github.com/user-attachments/assets/3ae9e5b9-e710-46f0-b5a4-6431016ab8b8)
+Bu ekranda AES şifreleme yöntemi uygulanmaktadır.
 
 Umutcan Kemahlı Tarafından Hazırlanmıştır
