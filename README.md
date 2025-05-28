@@ -13,6 +13,7 @@ online site : http://kriptofinalprojesi.somee.com/
 ## Ana Sayfa
 
 ![Ekran görüntüsü 2025-05-24 215601](https://github.com/user-attachments/assets/a839d233-8305-4b6b-a3db-4effc087aa9b)
+Bu ekran, Online Tools uygulamasının ana sayfasıdır. Uygulamadaki tüm araçlara buradan erişebilirsiniz.
 
 ## Rsa
 
