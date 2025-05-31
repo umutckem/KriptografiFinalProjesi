@@ -44,12 +44,12 @@ Bu ekranda, RSA algoritması ile şifre çözme işlemi sonucunda elde edilen or
 
 ## SHA256
 
-![Ekran görüntüsü 2025-05-24 215631](https://github.com/user-attachments/assets/5bba94e7-576a-46d0-9d50-da63151342e6)
-Bu ekran, SHA-256 algoritmasına göre özet (hash) oluşturmak için kullanılır.
+![Ekran görüntüsü 2025-05-31 162551](https://github.com/user-attachments/assets/b10e74a3-f121-43c2-8006-9a67fb525fec)
+Bu ekran, SHA-256 tek yönlü hash algoritmasının uygulandığı bölümdür. Kullanıcı, burada ister metin ister dosya girerek hash (özet) değerini oluşturabilir.
 
 ## AES
 
-![Ekran görüntüsü 2025-05-24 215638](https://github.com/user-attachments/assets/3ae9e5b9-e710-46f0-b5a4-6431016ab8b8)
-Bu ekranda AES şifreleme yöntemi uygulanmaktadır.
+![image](https://github.com/user-attachments/assets/272a7367-6aa0-4ccb-a9ce-4910d376054c)
+Bu ekran, AES algoritmasıyla şifreleme ve şifre çözme işlemlerinin yapıldığı bölümdür. Kullanıcı, dosya, metin veya URL girerek bir şifre belirleyebilir ve bu veriyi AES ile şifreleyebilir ya da daha önce şifrelenmiş veriyi girip çözümleyebilir.
 
 Umutcan Kemahlı Tarafından Hazırlanmıştır
