@@ -73,41 +73,106 @@
 @section Styles {
     <style>
         body {
-            background-color: #f8f9fa;
+            background: linear-gradient(135deg, #121212, #1a1a1a);
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+        }
+
+        h2.text-center {
+            font-weight: 700;
+            font-size: 2.2rem;
+            color: #dd00ff;
+            margin-bottom: 2rem;
+            text-shadow: 0 0 8px #dd00ff50;
         }
 
         .card {
-            border-radius: 10px;
-            border: none;
+            border-radius: 16px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+            color: #fff;
+            transition: all 0.3s ease;
         }
 
-        .form-label {
-            color: #495057;
-        }
-
-        .form-control, .form-select {
-            border-radius: 8px;
-            transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-        }
-
-            .form-control:focus, .form-select:focus {
-                border-color: #0d6efd;
-                box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+            .card:hover {
+                box-shadow: 0 6px 30px rgba(0, 0, 0, 0.6);
             }
 
+        .form-label {
+            font-weight: 600;
+            color: #e2e2e2;
+        }
+
+        .form-control,
+        .form-select,
+        input,
+        textarea {
+            background-color: rgba(255, 255, 255, 0.07);
+            color: #ffffff !important;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+        }
+
+        select, option {
+            color: #ffffff !important;
+            background-color: rgba(18, 18, 18, 0.95);
+        }
+
+        .form-control:focus, .form-select:focus {
+            border-color: #dd00ff;
+            box-shadow: 0 0 0 0.2rem rgba(221, 0, 255, 0.25);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            color: #cccccc;
+        }
+
         .btn-primary {
-            border-radius: 8px;
-            padding: 10px;
-            font-weight: 500;
+            background: linear-gradient(90deg, #dd00ff, #00ddeb);
+            border: none;
+            color: #121212;
+            font-weight: 600;
+            padding: 12px;
+            border-radius: 10px;
+            transition: background-position 0.3s ease;
+            background-size: 200% auto;
         }
 
             .btn-primary:hover {
-                background-color: #0b5ed7;
-                border-color: #0a58ca;
+                background-position: right center;
+                box-shadow: 0 0 10px #dd00ff90;
             }
 
         textarea[readonly] {
-            background-color: #e9ecef;
+            background-color: rgba(255, 255, 255, 0.05);
+            color: #e2e2e2;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        select,
+        textarea,
+        input[type="text"],
+        input[type="password"],
+        input[type="file"] {
+            margin-top: 5px;
+            color: #ffffff !important;
+        }
+
+        @@media (max-width: 576px) {
+            h2 .text-center
+
+        {
+            font-size: 1.6rem;
+        }
+
+        .btn-primary {
+            font-size: 0.9rem;
+        }
+
         }
     </style>
 }
