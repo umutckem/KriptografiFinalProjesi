@@ -47,9 +47,33 @@ Bu ekranda, RSA algoritması ile şifre çözme işlemi sonucunda elde edilen or
 ![Ekran görüntüsü 2025-05-31 162551](https://github.com/user-attachments/assets/b10e74a3-f121-43c2-8006-9a67fb525fec)
 Bu ekran, SHA-256 tek yönlü hash algoritmasının uygulandığı bölümdür. Kullanıcı, burada ister metin ister dosya girerek hash (özet) değerini oluşturabilir.
 
+![image](https://github.com/user-attachments/assets/91fbd80f-df94-44f2-8e64-43517c5e033a)
+SHA-256 algoritması kullanılarak “Umutcan Kemahlı” metni hashlenmiştir.
+
+![image](https://github.com/user-attachments/assets/b5e6504d-5ab6-43c4-8dc6-2fd6a507bcb1)
+Hash işleminin sonucu ekranda görüntülenmektedir.
+
+![image](https://github.com/user-attachments/assets/578e6c96-5849-4ca6-bddb-11738025ac3f)
+Burada, bir dosyanın SHA-256 algoritması ile hash’lenmiş hali görülmektedir.
+
 ## AES
 
 ![image](https://github.com/user-attachments/assets/272a7367-6aa0-4ccb-a9ce-4910d376054c)
 Bu ekran, AES algoritmasıyla şifreleme ve şifre çözme işlemlerinin yapıldığı bölümdür. Kullanıcı, dosya, metin veya URL girerek bir şifre belirleyebilir ve bu veriyi AES ile şifreleyebilir ya da daha önce şifrelenmiş veriyi girip çözümleyebilir.
+
+![image](https://github.com/user-attachments/assets/8bcfd34d-a7fb-4aee-bd6d-0726d4c6191f)
+Bu ekranda, AES şifreleme işlemi için “Deneme” adlı bir metin ve “1234” şifresi girilmiştir.
+
+![image](https://github.com/user-attachments/assets/7ceb15df-23cf-45ef-86b4-8deecca7845f)
+Bu ekranda, AES algoritmasıyla şifrelenen verinin şifreli (kriptolanmış) sonucu görüntülenmektedir.
+
+![image](https://github.com/user-attachments/assets/ae7dc4f5-d484-4900-93bc-e5612b742639)
+Bu ekranda, AES algoritmasıyla şifre çözme (decryption) işlemi gerçekleştirilmektedir.
+
+![image](https://github.com/user-attachments/assets/64df8cec-fb5d-4ca6-b416-21a4a4ca0cc9)
+Şifre çözme işleminin sonucu bu ekranda görüntülenmektedir.
+
+![image](https://github.com/user-attachments/assets/58c69f3e-e019-4b0e-b4ce-abb6d7f5b357)
+Burada, AES algoritmasıyla bir dosya türünün şifrelendiği görülmektedir.
 
 Umutcan Kemahlı Tarafından Hazırlanmıştır
