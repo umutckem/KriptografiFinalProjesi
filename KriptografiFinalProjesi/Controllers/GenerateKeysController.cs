@@ -6,7 +6,7 @@ namespace KriptografiFinalProjesi.Controllers
     {
         public IActionResult GenerateKeys()
         {
-            // Sayfa ilk açıldığında anahtar üretmeden boş bir View döndürüyoruz.
+            
             return View();
         }
 
@@ -27,7 +27,7 @@ namespace KriptografiFinalProjesi.Controllers
                 ViewBag.PublicKey = publicKey;
                 ViewBag.PrivateKey = privateKey;
 
-                return View(); // Anahtarları üretip aynı sayfaya dönüyoruz
+                return View(); 
             }
         }
     }

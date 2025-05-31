@@ -14,7 +14,7 @@ namespace KriptografiFinalProjesi.Controllers
             string result = "";
             try
             {
-                // Girdi alma
+                
                 string inputData = inputType switch
                 {
                     "text" => textInput,
@@ -23,11 +23,11 @@ namespace KriptografiFinalProjesi.Controllers
                     _ => throw new Exception("Geçersiz girdi tipi")
                 };
 
-                // Rastgele salt üret veya çözme işlemi için veriden al
+                
                 byte[] salt;
                 if (operation == "encrypt")
                 {
-                    salt = RandomNumberGenerator.GetBytes(16); // 128 bit
+                    salt = RandomNumberGenerator.GetBytes(16); 
                 }
                 else
                 {
@@ -36,10 +36,10 @@ namespace KriptografiFinalProjesi.Controllers
                     inputData = Encoding.UTF8.GetString(allData.Skip(16).ToArray());
                 }
 
-                // Key ve IV üret
+                
                 using var keyGen = new Rfc2898DeriveBytes(passphrase, salt, 10000, HashAlgorithmName.SHA256);
-                byte[] key = keyGen.GetBytes(32); // AES-256
-                byte[] iv = keyGen.GetBytes(16);  // AES IV
+                byte[] key = keyGen.GetBytes(32); 
+                byte[] iv = keyGen.GetBytes(16);  
 
                 using var aes = Aes.Create();
                 aes.Key = key;
@@ -55,7 +55,7 @@ namespace KriptografiFinalProjesi.Controllers
                     byte[] output = salt.Concat(encrypted).ToArray();
                     result = Convert.ToBase64String(output);
                 }
-                else // decrypt
+                else 
                 {
                     byte[] allBytes = Convert.FromBase64String(textInput);
                     byte[] encryptedData = allBytes.Skip(16).ToArray(); // 16 byte salt başta

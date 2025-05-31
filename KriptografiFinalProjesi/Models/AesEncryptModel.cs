@@ -3,33 +3,33 @@
 public class AesEncryptModel
 {
     [Required(ErrorMessage = "Giriş tipi seçilmelidir.")]
-    public string InputType { get; set; } // text, file, url
+    public string InputType { get; set; } 
 
-    public string InputData { get; set; } // For text or URL input
+    public string InputData { get; set; } 
 
-    public IFormFile InputFile { get; set; } // For file input
+    public IFormFile InputFile { get; set; } 
 
     [Required(ErrorMessage = "Giriş kodlaması seçilmelidir.")]
-    public string InputEncoding { get; set; } // UTF8, ASCII, Unicode
+    public string InputEncoding { get; set; } 
 
     [Required(ErrorMessage = "Çıkış kodlaması seçilmelidir.")]
-    public string OutputEncoding { get; set; } // Base64, Hex
+    public string OutputEncoding { get; set; } 
 
     [Required(ErrorMessage = "Anahtar boyutu seçilmelidir.")]
     [Range(128, 256, ErrorMessage = "Anahtar boyutu 128, 192 veya 256 bit olmalıdır.")]
-    public int KeySize { get; set; } // 128, 192, 256
+    public int KeySize { get; set; } 
 
     [Required(ErrorMessage = "Şifreleme modu seçilmelidir.")]
-    public string Mode { get; set; } // CBC, ECB, CFB, OFB
+    public string Mode { get; set; } 
 
     [Required(ErrorMessage = "Padding seçilmelidir.")]
-    public string Padding { get; set; } // PKCS7, Zeros, None
+    public string Padding { get; set; } 
 
     [Required(ErrorMessage = "Anahtar tipi seçilmelidir.")]
-    public string KeyType { get; set; } // Raw, Passphrase
+    public string KeyType { get; set; } 
 
     [Required(ErrorMessage = "Anahtar veya passphrase girilmelidir.")]
     public string KeyInput { get; set; }
 
-    public string HashAlgorithm { get; set; } // SHA256, SHA1, MD5 (required only for Passphrase)
+    public string HashAlgorithm { get; set; } 
 }

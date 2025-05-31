@@ -5,7 +5,7 @@ namespace KriptografiFinalProjesi.Helpers
 {
     public static class HashHelper
     {
-        // SHA256 Hash hesaplama metodunu statik hale getirdim
+        
         public static string GetSha256Hash(string input)
         {
             using (SHA256 sha256 = SHA256.Create())

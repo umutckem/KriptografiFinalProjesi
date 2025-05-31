@@ -1,4 +1,4 @@
-/* site.css */
+
 
 html {
     font-size: 14px;
@@ -29,7 +29,7 @@ body {
     z-index: 1;
 }
 
-/* Canvas arka plan */
+
 #bgCanvas {
     position: fixed;
     top: 0;
@@ -41,7 +41,7 @@ body {
     pointer-events: none;
 }
 
-/* Týklama efekti */
+
 .click-effect-container {
     position: fixed;
     top: 0;
@@ -67,7 +67,7 @@ body {
     }
 }
 
-/* Navbar, main-content, footer */
+
 .navbar {
     background: #1e1e1e;
     border-bottom: 1px solid #333;
