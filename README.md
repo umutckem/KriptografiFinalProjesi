@@ -12,8 +12,9 @@ Giriş verisinin tek yönlü olarak sabit uzunlukta bir hash çıktısına dön�
 online site : [http://kriptofinalprojesi.somee.com/](https://kriptografionlinetools.somee.com/)
 ## Ana Sayfa
 
-![Ekran görüntüsü 2025-05-24 215601](https://github.com/user-attachments/assets/a839d233-8305-4b6b-a3db-4effc087aa9b)
-Bu ekran, Online Tools uygulamasının ana sayfasıdır. Uygulamadaki tüm araçlara buradan erişebilirsiniz.
+![image](https://github.com/user-attachments/assets/1ff0a0ef-9ae6-436a-9155-124bc9f692a5)
+
+Ana sayfada görüldüğü üzere, sistem RSA, AES ve SHA-256 gibi modern kriptografi algoritmalarını desteklemektedir. Bunların yanı sıra, site tasarımı JavaScript ve CSS kullanılarak geliştirilmiş olup kullanıcıya görsel olarak estetik ve işlevsel bir arayüz sunmaktadır.
 
 ## Rsa
 
