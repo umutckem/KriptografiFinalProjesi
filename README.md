@@ -1,3 +1,5 @@
+## Güvenli Veri Şifreleme
+
 KriptografiFinalProjesi, temel kriptografi algoritmalarını kullanıcı dostu bir web arayüzü üzerinden uygulamaya olanak tanıyan bir ASP.NET Core tabanlı projedir. Proje kapsamında aşağıdaki şifreleme ve hash algoritmaları desteklenmektedir:
 
 AES (Advanced Encryption Standard):
